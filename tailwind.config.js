@@ -11,10 +11,12 @@ export default {
 				'custom-transparent': 'rgba(14, 16, 20, 0)',
 				'purple-color': '#833AB4',
 				'gold-color': '#FCB045',
-				'red-color': '#EE3E34;',
-				'burgundy-color': '#961A1A;'
+				'red-color': '#EE3E34',
+				'burgundy-color': '#961A1A',
+				'grey-color': '#E4E5EA',
 			},
 			borderRadius: {
+				'middle': '149px',
 				'large': '259px',
 			},
 			blur: {
@@ -23,8 +25,14 @@ export default {
 			backgroundImage: {
 				'custom-gradient': 'linear-gradient(180deg, #0E1014 0.12%, rgba(14, 16, 20, 0) 32.61%)',
 			},
+			fontFamily: {
+				montserrat: ['Montserrat', 'sans-serif'],
+				inter: ['Inter', 'sans-serif'],
+			},
+			width: {
+				'base-width': '1140px',
+			}
 		},
 	},
 	plugins: [],
 };
-

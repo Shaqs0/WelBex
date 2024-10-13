@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 .custom-background {
-    @apply rounded-large opacity-50 blur-custom z-0 absolute;
+    @apply rounded-large opacity-100 blur-custom z-0 absolute;
   }
-  
+ 
+@media (max-width: 450px) {
+  .custom-background {
+    @apply rounded-middle opacity-55;
+  }
+} 
 
-* {
-      outline: 1px solid black !important;
+/* * {
+      outline: 1px solid white !important;
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
