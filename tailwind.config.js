@@ -31,6 +31,9 @@ export default {
 			},
 			width: {
 				'base-width': '1140px',
+			},
+			spacing: {
+				'-20': '-5rem'
 			}
 		},
 	},
