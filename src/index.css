@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-background {
-    @apply rounded-large opacity-100 blur-custom z-0 absolute;
+    @apply rounded-large opacity-100 blur-custom z-0 absolute w-64 h-64;
   }
  
 @media (max-width: 450px) {
